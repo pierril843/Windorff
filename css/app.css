@@ -1,0 +1,82 @@
+body {
+  background: url(../pope-moysuh.jpg);
+  background-size: 100%;
+
+}
+
+footer {
+  background: black;
+  border-radius: 10px;
+  text-align: center;
+}
+.items {
+  background-color:#d2b48c;
+}
+h1 {
+  color: #353332;
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+.btn-primary:hover {
+  background-color: #e9ecef;
+  border-color: #d2b48c;
+  color: black;
+}
+
+.jumbotron {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.card {
+  background-color: #94543C;
+  border-color: #94543C;
+}
+
+.card img {
+  object-fit: cover;
+  height:15rem;
+}
+
+.topspace {
+  height: 100vh;
+  text-align: center;
+  padding: 7rem;
+  font-family: 'Patua One', cursive;
+}
+.navbar-brand {
+  font-family: 'Patua One', cursive;
+}
+
+.navbar-brand span{
+  font-family: sans-serif;
+}
+.icons {
+  background-color: #d2b48c;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  margin-top: .75rem;
+  margin-bottom: 1rem;
+  padding: .5rem;
+}
+
+.icons p{
+  margin: 0rem;
+}
+
+.fab {
+  font-size: 2rem;
+  color: black;
+}
+.far {
+  font-size: 2rem;
+  color: black;
+}
+.fas {
+  font-size: 2rem;
+  color: black;
+
+}
