@@ -20,6 +20,7 @@ h1 {
   background-color: black;
   border-color: black;
   font-size: 1rem;
+  border-width:2px;
 }
 .btn-primary:hover {
   background-color: #e9ecef;
@@ -34,7 +35,19 @@ h1 {
 .card {
   background-color: #94543C;
   border-color: #94543C;
+  border-width:2px !important;
+}
 
+.border {
+  border-width:2px !important;
+}
+
+.border-bottom {
+  border-width:2px !important;
+}
+
+.jumbotron {
+  padding: 2.5rem 2rem;
 }
 
 .card img {
@@ -99,9 +112,6 @@ div.mycard {
   color: black; /* Change the background color on hover */
 }
 
-.right {
-  float: right;
-}
 
 @media (min-width: 575.98px) {
   h1 {
