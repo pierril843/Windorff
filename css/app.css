@@ -21,6 +21,7 @@ h1 {
   border-color: black;
   font-size: 1rem;
   border-width:2px;
+  margin: 1rem;
 }
 .btn-primary:hover {
   background-color: #e9ecef;
@@ -129,7 +130,7 @@ div.mycard {
     font-size: .75rem;
     }
 }
-@media (max-width: 318px) {
+@media (max-width: 400px) {
   h1 {
     font-size: 3.5rem
   }
