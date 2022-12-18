@@ -1,7 +1,7 @@
 body {
   background: url(../pope-moysuh.jpg);
   background-size: 100%;
-
+  background-position-y: 3rem;
 }
 
 footer {
@@ -19,6 +19,7 @@ h1 {
 .btn-primary {
   background-color: black;
   border-color: black;
+  font-size: 1rem;
 }
 .btn-primary:hover {
   background-color: #e9ecef;
@@ -33,6 +34,7 @@ h1 {
 .card {
   background-color: #94543C;
   border-color: #94543C;
+
 }
 
 .card img {
@@ -40,14 +42,20 @@ h1 {
   height:15rem;
 }
 
+div.mycard {
+  width: 50%;
+}
+
 .topspace {
-  height: 60vh;
-  text-align: center;
-  padding: 7rem;
   font-family: 'Patua One', cursive;
 }
 .navbar-brand {
   font-family: 'Patua One', cursive;
+}
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    width:75%;
+  }
 }
 
 .navbar-brand span{
@@ -79,4 +87,57 @@ h1 {
   font-size: 2rem;
   color: black;
 
+}
+
+.dropdown-item {
+  /* Add styles for hover state */
+  color: rgba(0,0,0,.5); /* Change the background color on hover */
+}
+
+.dropdown-item:hover {
+  /* Add styles for hover state */
+  color: black; /* Change the background color on hover */
+}
+
+.right {
+  float: right;
+}
+
+@media (min-width: 575.98px) {
+  h1 {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 4rem
+  }
+  .badge {
+    font-size: 60%;
+  }
+  .btn-primary {
+    font-size: .75rem;
+    }
+}
+@media (max-width: 318px) {
+  h1 {
+    font-size: 3.5rem
+  }
+  .navbar-brand {
+    font-size: small;
+    width: 60%;
+  }
+  .badge {
+    font-size: 50%;
+  }
+  .btn-primary {
+    font-size: .75rem;
+    padding: .5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  div.mycard {
+    width: 100%;
+  }
 }
