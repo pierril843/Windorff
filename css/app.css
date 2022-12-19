@@ -9,9 +9,11 @@ footer {
   border-radius: 10px;
   text-align: center;
 }
+
 .items {
   background-color:#d2b48c;
 }
+
 h1 {
   color: #353332;
 }
@@ -23,6 +25,7 @@ h1 {
   border-width:2px;
   margin: 1rem;
 }
+
 .btn-primary:hover {
   background-color: #e9ecef;
   border-color: #d2b48c;
@@ -63,18 +66,15 @@ div.mycard {
 .topspace {
   font-family: 'Patua One', cursive;
 }
+
 .navbar-brand {
   font-family: 'Patua One', cursive;
-}
-@media (max-width: 575.98px) {
-  .navbar-brand {
-    width:75%;
-  }
 }
 
 .navbar-brand span{
   font-family: sans-serif;
 }
+
 .icons {
   background-color: #d2b48c;
   margin-left: 2rem;
@@ -93,10 +93,12 @@ div.mycard {
   font-size: 2rem;
   color: black;
 }
+
 .far {
   font-size: 2rem;
   color: black;
 }
+
 .fas {
   font-size: 2rem;
   color: black;
@@ -113,7 +115,6 @@ div.mycard {
   color: black; /* Change the background color on hover */
 }
 
-
 @media (min-width: 575.98px) {
   h1 {
     font-size: 8rem;
@@ -122,6 +123,9 @@ div.mycard {
 @media (max-width: 575.98px) {
   h1 {
     font-size: 4rem
+  }
+  .navbar-brand {
+    width:75%;
   }
   .badge {
     font-size: 60%;
@@ -146,7 +150,6 @@ div.mycard {
     padding: .5rem;
   }
 }
-
 @media (max-width: 400px) {
   div.mycard {
     width: 100%;
